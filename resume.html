@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammadzaid Tai | Resume</title>
+
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b,
+        #0f172a
+    );
+    color:white;
+    min-height:100vh;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 0;
+}
+
+/* HERO */
+
+.hero{
+    text-align:center;
+    padding:80px 30px;
+    border-radius:25px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    animation:float 5s ease-in-out infinite;
+}
+
+.hero h1{
+    font-size:4rem;
+    font-weight:800;
+
+    background:linear-gradient(
+        to right,
+        #38bdf8,
+        #818cf8,
+        #ec4899
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:1.2rem;
+    color:#cbd5e1;
+}
+
+.contact{
+    margin-top:25px;
+}
+
+.contact a{
+    color:white;
+    text-decoration:none;
+
+    margin:0 10px;
+
+    padding:12px 20px;
+
+    border-radius:50px;
+
+    background:rgba(255,255,255,.1);
+
+    transition:.4s;
+}
+
+.contact a:hover{
+    transform:translateY(-5px);
+    background:#2563eb;
+}
+
+/* SECTIONS */
+
+section{
+    margin-top:30px;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.06);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.1);
+
+    transition:.4s;
+}
+
+section:hover{
+    transform:translateY(-8px);
+}
+
+h2{
+    font-size:2rem;
+    margin-bottom:20px;
+
+    color:#60a5fa;
+}
+
+/* SKILLS */
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill{
+    padding:12px 22px;
+
+    border-radius:40px;
+
+    background:linear-gradient(
+        135deg,
+        #2563eb,
+        #7c3aed
+    );
+
+    font-weight:600;
+
+    transition:.4s;
+}
+
+.skill:hover{
+    transform:scale(1.1);
+}
+.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+
+    border:5px solid #38bdf8;
+
+    margin-bottom:25px;
+
+    box-shadow:0 0 40px rgba(56,189,248,.5);
+
+    transition:.5s;
+}
+
+.profile-img:hover{
+    transform:scale(1.05) rotate(3deg);
+}
+
+/* PROJECT CARD */
+
+.project{
+    padding:20px;
+
+    border-radius:15px;
+
+    background:rgba(255,255,255,.05);
+
+    margin-top:15px;
+}
+
+.project:hover{
+    box-shadow:0 0 30px rgba(59,130,246,.3);
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    margin-top:50px;
+    color:#94a3b8;
+}
+
+/* ANIMATION */
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+    
+
+}
+        
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="hero">
+        <h1>Mohammadzaid Tai</h1>
+        <p>Information Technology Student | Full Stack Web Developer</p>
+        <img src="profile.png" class="profile-img">
+
+        <div class="contact">
+            <a href="tel:+919723056873">📞 9723056873</a>
+            <a href="mailto:mzaidtai786@gmail.com">✉️ Email</a>
+            <a href="https://linkedin.com/in/zaid-tai-6606003a7" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+
+    <section>
+        <h2>Career Objective</h2>
+        <p>
+            Motivated Information Technology student currently pursuing B.Tech
+            with a strong interest in Full Stack Development, Web Technologies,
+            and Software Engineering. Looking for internship and entry-level
+            opportunities to contribute technical skills while continuously
+            learning and growing in the IT industry.
+        </p>
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer with experience in React.js,
+            Node.js, MongoDB, HTML, CSS, and JavaScript. I enjoy building
+            responsive and user-friendly websites and continuously improving
+            my development skills through projects and self-learning.
+        </p>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React.js</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">Express.js</span>
+            <span class="skill">MongoDB</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Python</span>
+            <span class="skill">Git</span>
+            <span class="skill">GitHub</span>
+            <span class="skill">VS Code</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+
+        <h3>B.Tech Information Technology</h3>
+        <p>UKA Tarsadia University</p>
+        <p>Currently in 3rd Year (6th Semester)</p>
+
+        <br>
+
+        <h3>HSC (12th)</h3>
+        <p>71%</p>
+
+        <br>
+
+        <h3>SSC (10th)</h3>
+        <p>89%</p>
+    </section>
+
+    <section>
+        <h2>Academic Project</h2>
+
+        <div class="project">
+            <h3>School Management System</h3>
+
+            <p><strong>Tech Stack:</strong> React.js, Node.js</p>
+
+            <ul>
+                <li>Developed a full-stack web application.</li>
+                <li>Student enrollment and teacher management features.</li>
+                <li>Database-driven record management system.</li>
+                <li>Responsive user interface using React.js.</li>
+                <li>Backend API handling with Node.js.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Key Competencies</h2>
+
+        <ul>
+            <li>Problem Solving</li>
+            <li>Analytical Thinking</li>
+            <li>Communication Skills</li>
+            <li>Team Collaboration</li>
+            <li>Time Management</li>
+            <li>Process Improvement</li>
+            <li>Adaptability & Continuous Learning</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Achievements & Interests</h2>
+
+        <ul>
+            <li>Built multiple responsive websites and web applications.</li>
+            <li>Experience using Git and GitHub for version control.</li>
+            <li>Interested in Full Stack Development and Modern Web Technologies.</li>
+            <li>Actively learning advanced JavaScript and React ecosystem.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Languages</h2>
+
+        <ul>
+            <li>English</li>
+            <li>Gujarati</li>
+            <li>Hindi</li>
+        </ul>
+    </section>
+
+    <footer>
+        © 2026 Mohammadzaid Tai | Portfolio Resume Website
+    </footer>
+
+</div>
+
+</body>
+</html>
